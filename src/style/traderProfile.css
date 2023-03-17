@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.traderprofile-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#e9d3f3, #fff);
+    padding: 0 10vw;
+}
+
+.traderprofile-sec h2 {
+    padding: 0;
+    padding-bottom: 5vh;
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.traderprofile-sec h3 {
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.traderprofile-sec .info {
+    padding: 5vh 5vw;
+    margin: 10vh 0;
+    /* border: 2px solid var(--text-color); */
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.traderprofile-sec .video {
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+    margin: 5vh 0;
+    border-radius: 15px;
+}
+
+.traderprofile-sec button {
+    margin: 10vh 0;
+    width: 200px;
+    padding: 1.5vh 1vw;
+}
+
+.traderprofile-sec .strategy {
+    padding: 5vh 5vw;
+    margin: 10vh 0;
+    /* border: 2px solid var(--text-color); */
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+
+
+/* ================================================ */
+/* ================= Confirm form =============== */
+/* ================================================ */
+
+.traderprofile-sec .stategy-form .input {
+    display: flex;
+    justify-content: center;
+    gap: 30px 50px;
+    flex-wrap: wrap;
+    max-width: 60vw;
+}
+
+.traderprofile-sec .stategy-form .input input {
+    font-size: 1rem;
+    padding: 1.1vh 10px;
+    width: 400px;
+    border-radius: 60px;
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+}
+
+.traderprofile-sec .stategy-form .input #date {
+    width: 280px;
+    margin-left: 20px;
+}
+
+.traderprofile-sec .stategy-form .conf-btn {
+    text-align: center;
+}

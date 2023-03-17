@@ -1,0 +1,57 @@
+.myportfolio-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#e9d3f3, #fff);
+}
+
+.myportfolio-sec h2 {
+    padding: 10vh 0;
+    font-size: 2.5rem;
+}
+
+.returns .number {
+    color: green;
+}
+
+.myportfolio-sec table {
+    border-collapse: collapse;
+    padding: 5vh 0;
+}
+
+.myportfolio-sec .table {
+    padding: 5vh 2vw;
+    margin-bottom: 10vh;
+    border-radius: 15px;
+    border: 2px solid var(--text-color);
+    box-sizing: border-box
+}
+
+.myportfolio-sec .table h3 {
+    padding-bottom: 5vh;
+    font-size: 1.5rem;
+}
+
+.myportfolio-sec table th {
+    color: var(--text-color);
+    padding: 1vh 1vw;
+    border: 2px solid var(--text-color);
+    width: 200px;
+}
+
+.myportfolio-sec table td {
+    padding: 1vh 1vw;
+    border: 2px solid var(--text-color);
+    width: 200px;
+}
+
+.returns {
+    display: flex;
+    gap: 10vw;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border: 2px solid var(--text-color);
+    border-radius: 15px;
+    padding: 5vh 15vw;
+    margin-bottom: 10vh;
+}
