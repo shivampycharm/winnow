@@ -33,17 +33,19 @@ router.get("/:userid", async (req, res) => {
 router.post("/", async (req, res) => {
   try {
     // console.log(req.body);
-    const { fname, lname, username, email, password } = req.body;
+    const user = req.body;
+    const { fname, lname, username, email, password } = user;
     User.findOne({ email: email }, (err, user) => {
       if (user) {
         res.send({ message: "User already registered" });
       } else {
         const user = new User({
-          fname,
-          lname,
-          username,
-          email,
-          password,
+          fname: fname,
+          lname: lname,
+          username: username,
+          // dob: dob,
+          email: email,
+          password: password,
         });
         user.save((err) => {
           if (err) {
